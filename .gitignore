@@ -216,3 +216,22 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+# Project data
+data/*.csv
+data/*.txt
+data/*.zip
+
+# Environment variables / API keys
+.env
+.env.*
+
+# Trained models
+models/*.pkl
+models/*.joblib
+models/*.pt
+models/*.pth
+
+# OS files
+.DS_Store
+Thumbs.db
